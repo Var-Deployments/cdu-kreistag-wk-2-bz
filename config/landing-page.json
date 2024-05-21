@@ -1,16 +1,20 @@
 {
   "headlineText": "Gemeinsam für<br/>{Gemeindename}.",
-  "headerBackgroundSrc": "/img/header_bg.png",
+  "headerBackgroundSrc": "/img/header_bg.jpg",
   "headlineTextDynamic": {
-    "enabled": false,
+    "enabled": true,
     "staticPart": "Gemeinsam für",
     "linebreak": true,
     "typingInterval": 1000,
     "typingSpeed": 50,
     "dynamicParts": [
-      "{Gemeindename}",
-      "{Lokalthema_1}",
-      "{Lokalthema_2}"
+      "Neukirch.",
+      "Schirgiswalde-Kirschau.",
+      "Cunewalde.",
+      "Wilthen.",
+      "Sohland.",
+      "Obergurig.",
+      "Großpostwitz."
     ]
   }
 }
