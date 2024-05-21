@@ -28,7 +28,6 @@ export default function Imprint() {
                 <span className="font-semibold">Angaben gem. §5 TMG</span>
                 <div className="mt-4 flex flex-col font-light">
                     <span>{imprintData.name}</span>
-                    <span>{namingConfig.instanceName}</span>
                     <span>{imprintData.streetAddress}</span>
                     <div className="flex flex-row gap-x-1">
                         <span>{imprintData.postalCode},</span>

@@ -34,7 +34,7 @@ const Footer = ({instance, socialLinks}) => {
                     <span>All Rights Reserved.</span>
                 </div>
                 <div className="flex flex-col md:flex-row gap-x-1 items-end md:items-center text-right">
-                    <span>Developed by Elia Hilse. </span>
+                    <span>Proudly Open Source. </span>
                     <a className="underline link-lite"
                        href="https://github.com/eliahilse/cdu-local-template"
                     >View Repository</a>

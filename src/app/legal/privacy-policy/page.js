@@ -25,7 +25,7 @@ export default function PrivacyPolicy() {
                 <span>Zuletzt aktualisiert: 26.04.2024</span>
                 <p className="my-8 max-w-[90vw] md:max-w-[70vw]">
                     <b>1. Einleitung</b><br />
-                    Willkommen auf der Website von {namingConfig.instanceName}. Diese Datenschutzrichtlinie (&ldquo;Richtlinie&ldquo;) erläutert, wie {namingConfig.instanceName} (&ldquo;wir&ldquo;, &ldquo;uns&ldquo; oder &ldquo;unser&ldquo;) Informationen über Sie verarbeitet, wenn Sie unsere Website besuchen. Indem Sie unsere Website nutzen, erklären Sie sich mit den in dieser Richtlinie beschriebenen Praktiken einverstanden. Wenn Sie mit unseren Richtlinien und Praktiken nicht einverstanden sind, besteht Ihre Möglichkeit darin, unsere Website nicht zu nutzen.<br /><br />
+                    Willkommen auf der Website repräsentativ für die CDU Kandidaten der Kreistagswahl des Wahlkreises 2 in Bautzen. Diese Datenschutzrichtlinie (&ldquo;Richtlinie&ldquo;) erläutert, wie der Verantwortliche, Elia Hilse, (&ldquo;wir&ldquo;, &ldquo;uns&ldquo; oder &ldquo;unser&ldquo;) Informationen über Sie verarbeitet, wenn Sie unsere Website besuchen. Indem Sie unsere Website nutzen, erklären Sie sich mit den in dieser Richtlinie beschriebenen Praktiken einverstanden. Wenn Sie mit unseren Richtlinien und Praktiken nicht einverstanden sind, besteht Ihre Möglichkeit darin, unsere Website nicht zu nutzen.<br /><br />
 
                     <b>2. Informationen, die wir sammeln</b><br />
                     Wir nutzen auf unserer Website lediglich einen Cookie zur Speicherung Ihrer Themeneinstellungen (Hell- oder Dunkelmodus), welcher ausschließlich lokal auf Ihrem Gerät gespeichert wird und keine personenbezogenen Daten erfasst.<br /><br />
