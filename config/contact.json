@@ -1,4 +1,5 @@
 {
+  "enabled": true,
   "email": "contact@your.domain",
   "press": {
     "name": "Vorname Nachname",
