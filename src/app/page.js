@@ -4,6 +4,7 @@ import NavBar from '../components/navbar.jsx';
 import Footer from '../components/footer.jsx';
 import ShowcasedPeople from "@/components/showcased-people";
 import MediumFeed from "@/components/medium-feed";
+import LandingTyper from "@/components/landing-typer";
 
 const landingPageConfig = JSON.parse(fs.readFileSync(
     path.join(process.cwd(), "config/landing-page.json")
@@ -30,14 +31,32 @@ const candidatesConfig =
     ), "utf8");
 
 export default function Home() {
+    let wrapperClasses = "absolute w-full h-full transform -translate-x-[50%] text-center z-20 text-transparent inline-block text-4xl md:text-6xl font-bold bg-gradient-to-r from-gray-700 via-gray-900 to-black dark:from-gray-300 dark:via-gray-50 dark:to-white bg-clip-text";
     return (
         <main
             className="flex min-h-screen max-w-[100vw] flex-col items-center justify-center p-2 md:p-24 !pb-0 bg-white dark:bg-neutral-950">
             <NavBar instance={namingConfig.officeName}/>
             <div className="relative w-[100vw] py-[40vh] md:py-[25vh] overflow-x-clip overflow-y-visible text-center h-[100vh]">
-                <div
-                    className="absolute w-full h-full transform -translate-x-[50%] text-center z-20 text-transparent inline-block text-4xl md:text-6xl font-bold bg-gradient-to-r from-gray-700 via-gray-900 to-black dark:from-gray-300 dark:via-gray-50 dark:to-white bg-clip-text"
-                    dangerouslySetInnerHTML={{__html: landingPageConfig.headlineText}}></div>
+                {
+                    landingPageConfig.headlineTextDynamic.enabled ?
+                        (
+                            <div className={wrapperClasses}>
+                                {landingPageConfig.headlineTextDynamic.staticPart}
+                                {landingPageConfig.headlineTextDynamic.linebreak ? (<br />) : null}
+                                <LandingTyper
+                                    interval={landingPageConfig.headlineTextDynamic.typingInterval}
+                                    speed={landingPageConfig.headlineTextDynamic.typingSpeed}
+                                    sequences={landingPageConfig.headlineTextDynamic.dynamicParts}
+                                ></LandingTyper>
+                            </div>
+                        )
+                        : (
+                            <div
+                                className={wrapperClasses}
+                                dangerouslySetInnerHTML={{__html: landingPageConfig.headlineText}}>
+                            </div>
+                        )
+                }
                 <div className="z-10 opacity-50 dark:opacity-20 absolute -top-[20vh] left-0 w-[100vw]">
                     <img className="object-cover w-[100vw] h-[120vh]" src={landingPageConfig.headerBackgroundSrc}></img>
                 </div>

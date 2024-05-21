@@ -1,4 +1,16 @@
 {
   "headlineText": "Gemeinsam für<br/>{Gemeindename}.",
-  "headerBackgroundSrc": "/img/header_bg.png"
+  "headerBackgroundSrc": "/img/header_bg.png",
+  "headlineTextDynamic": {
+    "enabled": false,
+    "staticPart": "Gemeinsam für",
+    "linebreak": true,
+    "typingInterval": 1000,
+    "typingSpeed": 50,
+    "dynamicParts": [
+      "{Gemeindename}",
+      "{Lokalthema_1}",
+      "{Lokalthema_2}"
+    ]
+  }
 }
