@@ -10,7 +10,7 @@ import ThemeToggle from "@/components/theme-toggle";
 import Logo from "./logo.jsx";
 
 
-const NavBar = ({instance}) => {
+const NavBar = ({instance, navigation}) => {
     const [isOpen, setIsOpen] = useState(false);
     const [isMobile, setIsMobile] = useState(false);
 
@@ -52,12 +52,7 @@ const NavBar = ({instance}) => {
         setIsDarkMode(!isDarkMode);
     };
 
-    const navigation = [
-        {name: 'Startseite', href: '/'},
-        {name: 'Kandidaten', href: '#candidates'},
-        {name: 'Neuigkeiten', href: '#news'},
-        {name: 'Kontakt', href: '/contact'},
-    ];
+
 
     return (
         <Disclosure as="nav"
