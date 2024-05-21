@@ -26,7 +26,7 @@ const Footer = ({instance, socialLinks}) => {
                     <span>All Rights Reserved.</span>
                 </div>
                 <div
-                    className="flex flex-row gap-x-4 justify-center mt-0 md:mt-6 md:mt-0 items-center md:items-end">
+                    className="flex flex-row gap-x-4 justify-center items-center md:items-end">
                     <Link href="/legal/imprint" className="link-lite">
                         <span className="underline">Impressum</span>
                     </Link>
