@@ -54,7 +54,7 @@ const NavBar = ({instance, navigation}) => {
 
     return (
         <Disclosure as="nav"
-                    className="fixed top-0 left-0 z-[100] flexw-[100vw] items-center justify-center backdrop-blur-lg transition-all duration-300 data-[scrolled=true]:bg-white/80 data-[scrolled=true]:shadow-md dark:data-[scrolled=true]:bg-gray-950/80">
+                    className="fixed top-0 left-0 z-[100] flex w-[100vw] items-center justify-center backdrop-blur-lg transition-all duration-300 data-[scrolled=true]:bg-white/80 data-[scrolled=true]:shadow-md dark:data-[scrolled=true]:bg-gray-950/80">
             {({open, close}) => (
                 <div className="w-full md:w-auto">
                     <div className="max-w-7xl sm:w-full mx-2 md:mx-auto px-4 sm:px-2 lg:px-8">

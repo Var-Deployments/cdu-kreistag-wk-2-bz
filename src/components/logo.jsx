@@ -16,7 +16,7 @@ const Logo = ({instance}) => {
                     <span className="ml-1.5 text-black dark:text-white">Bautzen</span>
             </span>
             </div>
-            <span className="text-black dark:text-white"><span className="font-light">Kreistagswahl,</span> <span className="font-bold">Wahlkreis 2</span></span>
+            <span className="text-black dark:text-white mt-1"><span className="font-light">Kreistagswahl,</span> <span className="font-bold">Wahlkreis 2</span></span>
         </div>
     );
 }
