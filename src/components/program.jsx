@@ -17,7 +17,8 @@ const Program = ({ config }) => {
     };
 
     return (
-        <div id="program" className={(iframeOpen ? "" : "overflow-hidden ") + "w-full flex flex-col justify-center items-center mb-[25vh] text-black dark:text-white overscroll-y-none"}>
+        <div className={(iframeOpen ? "" : "overflow-hidden ") + "w-full flex flex-col justify-center items-center mb-[25vh] text-black dark:text-white overscroll-y-none"}>
+            <div id="program" className="transform -translate-y-24"></div>
             <h1 className="text-5xl font-bold mb-8 text-black dark:text-white" dangerouslySetInnerHTML={{__html: config.title}}></h1>
             <span className="text-2xl font-light -mt-3 text-center" dangerouslySetInnerHTML={{__html: config.subtitle}}></span>
             <div className={(iframeOpen ? "" : "hidden *hidden") + "fixed top-0 left-0 w-[100vw] h-[100vh] z-[200] backdrop-blur-lg backdrop-brightness-75 overscroll-y-none"}>
