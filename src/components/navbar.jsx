@@ -4,14 +4,13 @@
 import React, {useState, useEffect} from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import {Disclosure} from '@headlessui/react';
+import {Disclosure } from '@headlessui/react';
 import {Bars3Icon, XMarkIcon} from '@heroicons/react/24/outline';
 import ThemeToggle from "@/components/theme-toggle";
 import Logo from "./logo.jsx";
 
 
 const NavBar = ({instance, navigation}) => {
-    const [isOpen, setIsOpen] = useState(false);
     const [isMobile, setIsMobile] = useState(false);
 
 
@@ -53,11 +52,10 @@ const NavBar = ({instance, navigation}) => {
     };
 
 
-
     return (
         <Disclosure as="nav"
-                    className="fixed top-0 left-0 z-[100] flex w-[100vw] items-center justify-center backdrop-blur-lg transition-all duration-300 data-[scrolled=true]:bg-white/80 data-[scrolled=true]:shadow-md dark:data-[scrolled=true]:bg-gray-950/80">
-            {({open}) => (
+                    className="fixed top-0 left-0 z-[100] flexw-[100vw] items-center justify-center backdrop-blur-lg transition-all duration-300 data-[scrolled=true]:bg-white/80 data-[scrolled=true]:shadow-md dark:data-[scrolled=true]:bg-gray-950/80">
+            {({open, close}) => (
                 <div className="w-full md:w-auto">
                     <div className="max-w-7xl sm:w-full mx-2 md:mx-auto px-4 sm:px-2 lg:px-8">
                         <div className="flex justify-between">
@@ -105,7 +103,7 @@ const NavBar = ({instance, navigation}) => {
                         className="sm:hidden fixed top-0 left-0 h-[100vh] w-[100vw] flex flex-col items-center dark:bg-neutral-950 bg-white z-10">
                         <div className="w-full p-2 pt-2 pb-3 space-y-2 mt-20">
                             {navigation.map((item) => (
-                                <Link className="w-full" key={item.name} href={item.href} legacyBehavior={false}>
+                                <Link onClick={() => /^(\/$|#|\/#)/.test(item.href) ? close() : null} className="w-full" key={item.name} href={item.href} legacyBehavior={false}>
                                     <span
                                         className="text-2xl text-black dark:text-white hover:bg-gray-100 dark:hover:bg-gray-300/10 block pl-6 px-3 py-2 rounded-md">
                                         {item.name}
