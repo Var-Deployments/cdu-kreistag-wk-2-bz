@@ -5,6 +5,7 @@ import Footer from '../components/footer.jsx';
 import ShowcasedPeople from "@/components/showcased-people";
 import MediumFeed from "@/components/medium-feed";
 import LandingTyper from "@/components/landing-typer";
+import Program from "@/components/program";
 
 const landingPageConfig = JSON.parse(fs.readFileSync(
     path.join(process.cwd(), "config/landing-page.json")
@@ -47,13 +48,13 @@ export default function Home() {
     ];
 
     if(candidatesConfig.enabled) { navigation.push({name: 'Kandidaten', href: '#candidates'})}
-    if(blogConfig.enabled) { navigation.push({name: 'Wahlprogramm', href: '#inhalte'})}
+    if(programConfig.enabled) { navigation.push({name: 'Wahlprogramm', href: '#program'})}
     if(blogConfig.enabled) { navigation.push({name: 'Neuigkeiten', href: '#news'})}
     if(contactConfig.enabled) { navigation.push({name: 'Kontakt', href: '/contact'})}
 
     return (
         <main
-            className="flex min-h-screen max-w-[100vw] flex-col items-center justify-center p-2 md:p-24 !pb-0 bg-white dark:bg-neutral-950">
+            id="mainContainer" className="flex min-h-screen max-w-[100vw] flex-col items-center justify-center p-2 md:p-24 !pb-0 bg-white dark:bg-neutral-950">
             <NavBar navigation={navigation} instance={namingConfig.officeName}/>
             <div className="relative w-[100vw] py-[40vh] md:py-[25vh] overflow-x-clip overflow-y-visible text-center h-[100vh]">
                 {
@@ -82,6 +83,7 @@ export default function Home() {
                 <div className="z-20 absolute bottom-0 left-0 w-full h-[35vh] bg-gradient-to-b from-transparent to-white dark:to-neutral-950"></div>
             </div>
             { candidatesConfig.enabled ? ( <ShowcasedPeople candidates={candidatesConfig}/> ) : null }
+            { programConfig.enabled ? ( <Program config={programConfig}></Program> ) : null }
             { blogConfig.enabled ? ( <MediumFeed blog={blogConfig} /> ) : null }
             <Footer instance={namingConfig.instanceName} socialLinks={socialConfig}/>
         </main>

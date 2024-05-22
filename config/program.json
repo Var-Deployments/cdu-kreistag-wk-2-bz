@@ -1,3 +1,12 @@
 {
-  "enabled": false
+  "enabled": true,
+  "title": "Wahlprogramm",
+  "subtitle": "Wofür wir stehen",
+  "contentType": "iframe",
+  "iframe": {
+    "url": "https://www.kreistagswahl-bautzen.de/de/programm"
+  },
+  "link": {
+    "url": ""
+  }
 }
