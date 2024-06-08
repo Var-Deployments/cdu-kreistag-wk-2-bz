@@ -11,7 +11,7 @@
       "title": "Bürgermeister",
       "img": "/img/candidate-samples/thomas-martolock.jpg",
       "bulletpoints": [],
-      "text": ""
+      "text": "57 Jahre, verheiratet, 3 Kinder, 5 Enkelkinder<br>Bürgermeister Cunewalde<br>Mitglied im Kreistag"
     },
     {
       "firstName": "Kathrin",
@@ -19,7 +19,7 @@
       "title": "Bürgermeisterin",
       "img": "/img/candidate-samples/kathrin-gessel.jpg",
       "bulletpoints": [],
-      "text": ""
+      "text": "59 Jahre<br>Bürgermeisterin Steinigtwolmsdorf"
     },
     {
       "firstName": "Christin",
@@ -28,7 +28,7 @@
       "img": "/img/candidate-samples/christel-schumann.jpg",
       "bulletpoints": [
       ],
-      "text": ""
+      "text": "44 Jahre<br>leiterin einer Kindertagesstätte"
     },
     {
       "firstName": "Marcel",
@@ -48,8 +48,9 @@
       "title": "Unternehmer",
       "img": "/img/candidate-samples/sebastian-steglich.jpg",
       "bulletpoints": [
+        "Leben in unserer Stadt und Region lebenswerter gestalten"
       ],
-      "text": ""
+      "text": "49 Jahre, verheiratet, 24 Kinder<br>Inhaber der RSD Metallbau Steglich<br>Vorsitzender des Heimat und Histoik Vereins Kirschau e.V."
     },
     {
       "firstName": "Elia",
@@ -60,9 +61,9 @@
         "Förderung lokaler Wirtschaft und Innovation",
         "Optimisierung und Digitalisierung von Verwaltungsprozessen auf Kreisebene",
         "Stärkung des Nahverkehrs (u.a. Elektrifizierung d. Schiene)",
-        "Brügernahe, produktive Zusammenarbeit im Kreistag"
+        "Bürgernahe, produktive Zusammenarbeit im Kreistag"
       ],
-      "text": "19 Jahre, Student (Medieninformatik) an der TU Dresden<br>Stipendiat der Konrad Adenauer Stiftung<br>Leitender Entwickler bei der <a class='underline' href='https://bilin.dev'>Bilin GmbH</a>"
+      "text": "19 Jahre<br>Student (Medieninformatik) an der TU Dresden<br>Stipendiant der Konrad Adenauer Stiftung<br>Leitender Softwareentwickler bei der <a class='underline' href='https://bilin.dev'>Bilin GmbH</a>"
     },
     {
       "firstName": "Thomas",
@@ -100,7 +101,7 @@
       "firstName": "Martin",
       "lastName": "Martolock",
       "title": "Erzieher",
-      "img": "",
+      "img": "/img/candidate-samples/martin-martolock.jpg",
       "bulletpoints": [],
       "text": ""
     },
@@ -108,7 +109,7 @@
       "firstName": "Uwe",
       "lastName": "Jeschke",
       "title": "Unternehmer",
-      "img": "",
+      "img": "/img/candidate-samples/uwe-jeschke.jpg",
       "bulletpoints": [],
       "text": ""
     }
