@@ -71,14 +71,17 @@
       "title": "Angestellter",
       "img": "/img/candidate-samples/thomas-polpitz.jpg",
       "bulletpoints": [],
-      "text": ""
+      "text": "54 Jahre, Ehrenamtlicher Bürgermeister von Obergurig"
     },
     {
       "firstName": "Gottfried",
       "lastName": "Krause",
       "title": "Rentner",
       "img": "/img/candidate-samples/gottfried-krause.jpg",
-      "bulletpoints": [],
+      "bulletpoints": [
+        "Gutes Miteinander der Generationen im Landkreis",
+        "Alt und jung im gemeinsamen Aktionen zusammenbringen"
+      ],
       "text": "71 Jahre<br>Bürgermeister Neukirch/Lausitz a.D.<br>3 Kinder, 8 Enkelkinder<br>Kreisrat und engagiert in der Seniorenarbeit"
     },
     {
@@ -87,7 +90,7 @@
       "title": "Verwaltungsbetirebswirt",
       "img": "/img/candidate-samples/patric-jung.jpg",
       "bulletpoints": [],
-      "text": ""
+      "text": "59 Jahre"
     },
     {
       "firstName": "Jens",
@@ -95,7 +98,7 @@
       "title": "Rettungssanitäter",
       "img": "/img/candidate-samples/jens-walther.jpg",
       "bulletpoints": [],
-      "text": ""
+      "text": "44 Jahre<br>Ehrenamtliche Tätigkeit beim DRK"
     },
     {
       "firstName": "Martin",
@@ -103,7 +106,7 @@
       "title": "Erzieher",
       "img": "/img/candidate-samples/martin-martolock.jpg",
       "bulletpoints": [],
-      "text": ""
+      "text": "33 Jahre<br>staatlich anerkannter Erzieher"
     },
     {
       "firstName": "Uwe",
