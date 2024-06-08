@@ -10,24 +10,16 @@
       "lastName": "Martolock",
       "title": "Bürgermeister",
       "img": "/img/candidate-samples/thomas-martolock.jpg",
-      "bulletpoints": [
-        "Inhalt 1",
-        "Inhalt 2",
-        "Inhalt 3"
-      ],
-      "text": "Lorem Ipsum Dolor Si"
+      "bulletpoints": [],
+      "text": ""
     },
     {
       "firstName": "Kathrin",
       "lastName": "Gessel",
       "title": "Bürgermeisterin",
       "img": "/img/candidate-samples/kathrin-gessel.jpg",
-      "bulletpoints": [
-        "Inhalt 1",
-        "Inhalt 2",
-        "Inhalt 3"
-      ],
-      "text": "Lorem Ipsum Dolor Si"
+      "bulletpoints": [],
+      "text": ""
     },
     {
       "firstName": "Christin",
@@ -35,11 +27,8 @@
       "title": "Leiterin Kindertagesstätte",
       "img": "/img/candidate-samples/christel-schumann.jpg",
       "bulletpoints": [
-        "Inhalt 1",
-        "Inhalt 2",
-        "Inhalt 3"
       ],
-      "text": "Lorem Ipsum Dolor Si"
+      "text": ""
     },
     {
       "firstName": "Marcel",
@@ -47,11 +36,11 @@
       "title": "Bankkaufmann",
       "img": "/img/candidate-samples/marcel-groeschel.jpg",
       "bulletpoints": [
-        "Inhalt 1",
-        "Inhalt 2",
-        "Inhalt 3"
+        "Unsere Heimat hat eine solide und gute Perspektive verdient",
+        "Politik gestalten, für unsere Kinder eine zukunftsfähige und lebenswere Oberlausitz",
+        "Die Zeit ist reif, dass die jüngere Generation ihre Expertiese mit einbringt und Verantwortung übernimmt"
       ],
-      "text": "Lorem Ipsum Dolor Si"
+      "text": "39 Jahre, Bankkaufmann<br>verheiratet, Vater von 2 Töchtern<br>Vorsitzender des Angelvereins 'Morgentau' Wilthen e.V.<br>Mitglied im Landesvorstand der Mittelstands- und Wirtschaftsvereinigung (MIT) der CDU Sachsen<br>Mitglied im Landesvorstand der sächsischen Union (CDU)"
     },
     {
       "firstName": "Sebastian",
@@ -59,95 +48,69 @@
       "title": "Unternehmer",
       "img": "/img/candidate-samples/sebastian-steglich.jpg",
       "bulletpoints": [
-        "Inhalt 1",
-        "Inhalt 2",
-        "Inhalt 3"
       ],
-      "text": "Lorem Ipsum Dolor Si"
+      "text": ""
     },
     {
       "firstName": "Elia",
       "lastName": "Hilse",
       "title": "Student",
-      "img": "",
+      "img": "/img/candidate-samples/elia-hilse.jpg",
       "bulletpoints": [
-        "Inhalt 1",
-        "Inhalt 2",
-        "Inhalt 3"
+        "Förderung lokaler Wirtschaft und Innovation",
+        "Optimisierung und Digitalisierung von Verwaltungsprozessen auf Kreisebene",
+        "Stärkung des Nahverkehrs (u.a. Elektrifizierung d. Schiene)",
+        "Brügernahe, produktive Zusammenarbeit im Kreistag"
       ],
-      "text": "Lorem Ipsum Dolor Si"
+      "text": "19 Jahre, Student (Medieninformatik) an der TU Dresden<br>Stipendiat der Konrad Adenauer Stiftung<br>Leitender Entwickler bei der <a class='underline' href='https://bilin.dev'>Bilin GmbH</a>"
     },
     {
       "firstName": "Thomas",
       "lastName": "Polpitz",
       "title": "Angestellter",
       "img": "/img/candidate-samples/thomas-polpitz.jpg",
-      "bulletpoints": [
-        "Inhalt 1",
-        "Inhalt 2",
-        "Inhalt 3"
-      ],
-      "text": "Lorem Ipsum Dolor Si"
+      "bulletpoints": [],
+      "text": ""
     },
     {
       "firstName": "Gottfried",
       "lastName": "Krause",
       "title": "Rentner",
       "img": "/img/candidate-samples/gottfried-krause.jpg",
-      "bulletpoints": [
-        "Inhalt 1",
-        "Inhalt 2",
-        "Inhalt 3"
-      ],
-      "text": "Lorem Ipsum Dolor Si"
+      "bulletpoints": [],
+      "text": ""
     },
     {
       "firstName": "Patric",
       "lastName": "Jung",
       "title": "Verwaltungsbetirebswirt",
       "img": "/img/candidate-samples/patric-jung.jpg",
-      "bulletpoints": [
-        "Inhalt 1",
-        "Inhalt 2",
-        "Inhalt 3"
-      ],
-      "text": "Lorem Ipsum Dolor Si"
+      "bulletpoints": [],
+      "text": ""
     },
     {
       "firstName": "Jens",
       "lastName": "Walther",
       "title": "Rettungssanitäter",
       "img": "/img/candidate-samples/jens-walther.jpg",
-      "bulletpoints": [
-        "Inhalt 1",
-        "Inhalt 2",
-        "Inhalt 3"
-      ],
-      "text": "Lorem Ipsum Dolor Si"
+      "bulletpoints": [],
+      "text": ""
     },
     {
       "firstName": "Martin",
       "lastName": "Martolock",
       "title": "Erzieher",
       "img": "",
-      "bulletpoints": [
-        "Inhalt 1",
-        "Inhalt 2",
-        "Inhalt 3"
-      ],
-      "text": "Lorem Ipsum Dolor Si"
+      "bulletpoints": [],
+      "text": ""
     },
     {
       "firstName": "Uwe",
       "lastName": "Jeschke",
       "title": "Unternehmer",
       "img": "",
-      "bulletpoints": [
-        "Inhalt 1",
-        "Inhalt 2",
-        "Inhalt 3"
-      ],
-      "text": "Lorem Ipsum Dolor Si"
+      "bulletpoints": [],
+      "text": ""
     }
   ]
 }
